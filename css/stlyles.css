@@ -28,6 +28,9 @@ p {
 }
 .bottom-container {
   background-color: yellow;
+  border: 10px;
+  border-style: solid;
   height: 200px;
+  margin-left: 540px;
   width: 200px;
 }
