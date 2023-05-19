@@ -2,19 +2,19 @@ body {
   margin: 0;
 }
 h1 {
+  display: inline-block;
   margin-top: 0;
 }
 p {
   font-size: 1em;
+  display: inline-block;
 }
 .top-container {
+  display: inline-block;
   background-color: #e4f9f5;
   border: 10px;
   border-style: solid;
   border-color: blueviolet;
-  height: 200px;
-  padding: 20px;
-  width: 200px;
 }
 
 .middle-container {
@@ -23,7 +23,6 @@ p {
   background-color: red;
   height: 200px;
   margin-left: 260px;
-  padding: 20px;
   width: 200px;
 }
 .bottom-container {
@@ -31,6 +30,6 @@ p {
   border: 10px;
   border-style: solid;
   height: 200px;
-  margin-left: 540px;
+  margin-left: 500px;
   width: 200px;
 }
