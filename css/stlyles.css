@@ -4,11 +4,13 @@ body {
   font-family: "Merriweather", serif;
 }
 h1 {
-  margin-top: 0;
+  margin: 50px auto 0 auto;
   font-family: "Sacramento", cursive;
+  font-size: 5.6rem;
 }
 h2 {
   font-family: "Montserrat Alternates", sans-serif;
+  font-size: 2.5rem;
 }
 h3 {
   font-family: "Montserrat Alternates", sans-serif;
@@ -23,24 +25,12 @@ p {
 }
 
 .middle-container {
-  display: flex;
-  flex-direction: column;
-  border: 20px;
-  border-style: solid;
-  background-color: red;
-  height: 200px;
-  margin-left: 260px;
-  width: 200px;
+  background-color: #e4f9f5;
+  position: relative;
 }
 .bottom-container {
-  display: flex;
-  flex-direction: column;
-  background-color: yellow;
-  border: 10px;
-  border-style: solid;
-  height: 200px;
-  margin-left: 500px;
-  width: 200px;
+  background-color: #e4f9f5;
+  position: relative;
 }
 .top-cloud {
   position: absolute;
@@ -54,4 +44,9 @@ p {
 }
 .mountain {
   position: block;
+}
+.profile-image {
+  width: 200px;
+  height: 200px;
+  position: relative;
 }
